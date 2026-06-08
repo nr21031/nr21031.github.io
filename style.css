@@ -342,6 +342,16 @@ a:hover { text-decoration: underline; }
   border-radius: 6px;
 }
 
+.badge-available {
+  font-size: 0.75rem;
+  font-family: var(--mono);
+  color: var(--text-muted);
+  border: 1px dashed rgba(79,142,247,0.3);
+  padding: 0.3rem 0.75rem;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+
 /* SCREENSHOTS */
 .screenshots {
   display: grid;
